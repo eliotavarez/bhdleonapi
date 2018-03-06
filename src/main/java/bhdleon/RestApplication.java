@@ -10,6 +10,8 @@ import dashboard.DashboardResource;
 import dashboard.ExecutiveResource;
 import dashboard.ForeignExchangeResource;
 import dashboard.GraphicsResource;
+import filters.AuthenticationFilter;
+import filters.LogFilter;
 
 @ApplicationPath("api")
 public class RestApplication extends Application {
@@ -25,6 +27,9 @@ public class RestApplication extends Application {
         classes.add(ExecutiveResource.class);
         classes.add(ForeignExchangeResource.class);
         classes.add(GraphicsResource.class);
+        
+        classes.add(LogFilter.class);
+        classes.add(AuthenticationFilter.class);
         
         return classes;
     }
