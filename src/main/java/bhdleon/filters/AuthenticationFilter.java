@@ -1,4 +1,4 @@
-package filters;
+package bhdleon.filters;
 
 import java.io.IOException;
 
@@ -7,7 +7,7 @@ import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.container.ContainerRequestFilter;
 import javax.ws.rs.ext.Provider;
 
-import filters.Authorized;
+import bhdleon.filters.Authorized;
 
 @Authorized
 @Priority(1)

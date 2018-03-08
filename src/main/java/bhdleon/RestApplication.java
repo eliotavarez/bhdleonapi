@@ -5,13 +5,13 @@ import java.util.Set;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
-import dashboard.CalendarResource;
-import dashboard.DashboardResource;
-import dashboard.ExecutiveResource;
-import dashboard.ForeignExchangeResource;
-import dashboard.GraphicsResource;
-import filters.AuthenticationFilter;
-import filters.LogFilter;
+import bhdleon.dashboard.resources.CalendarResource;
+import bhdleon.dashboard.resources.DashboardResource;
+import bhdleon.dashboard.resources.ExecutiveResource;
+import bhdleon.dashboard.resources.ForeignExchangeResource;
+import bhdleon.dashboard.resources.GraphicsResource;
+import bhdleon.filters.AuthenticationFilter;
+import bhdleon.filters.LogFilter;
 
 @ApplicationPath("api")
 public class RestApplication extends Application {

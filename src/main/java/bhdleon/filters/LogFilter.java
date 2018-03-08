@@ -1,4 +1,4 @@
-package filters;
+package bhdleon.filters;
 
 import java.io.IOException;
 import java.util.Map.Entry;
@@ -11,7 +11,7 @@ import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.core.UriInfo;
 import javax.ws.rs.ext.Provider;
 
-import filters.Logged;
+import bhdleon.filters.Logged;
 
 @Logged
 @Provider

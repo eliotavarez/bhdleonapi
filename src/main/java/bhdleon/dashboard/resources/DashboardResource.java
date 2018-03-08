@@ -1,11 +1,11 @@
-package dashboard;
+package bhdleon.dashboard.resources;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.core.Response;
 
-import filters.Authorized;
-import filters.Logged;
+import bhdleon.filters.Authorized;
+import bhdleon.filters.Logged;
 
 @Authorized
 @Logged
