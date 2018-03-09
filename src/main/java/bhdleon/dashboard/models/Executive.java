@@ -1,10 +1,13 @@
 package bhdleon.dashboard.models;
 
+import javax.validation.constraints.NotNull;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement
 public class Executive {
+	@NotNull
 	private String name;
+	@NotNull
 	private String lastName;
 
 	public Executive() {

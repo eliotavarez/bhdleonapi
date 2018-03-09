@@ -11,5 +11,9 @@ public class ExecutiveServiceImpl implements ExecutiveService {
 
 		return executive;
 	}
+	
+	public Executive add(Executive executive) {
+		return executive;
+	}
 
 }
